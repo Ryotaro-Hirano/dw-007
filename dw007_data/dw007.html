@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>テーブルで表を作ろう 3｜やってみようシリーズ</title>
+</head>
+
+<body>
+	<h1>テーブルで表を作ろう 3</h1>
+
+	<h2>複雑なセルの結合1</h2>
+	<table border="1" cellspacing="0" cellpadding="20">
+		<tr>
+			<td rowspan="2">A</td>
+			<td colspan="2">B</td>
+		</tr>
+		<tr>
+			<td>C</td>
+			<td rowspan="2">D</td>
+		</tr>
+		<tr>
+			<td colspan="2">E</td>
+		</tr>
+	</table>
+	<hr />
+	<h2>複雑なセルの結合2</h2>
+	<table border="1" cellspacing="0" cellpadding="20">
+		<tr>
+			<td colspan="3">A</td>
+			<td>B</td>
+		</tr>
+		<tr>
+			<td rowspan="3">C</td>
+			<td>D</td>
+			<td colspan="2">E</td>
+		</tr>
+		<tr>
+			<td rowspan="2">F</td>
+			<td>G</td>
+			<td rowspan="2">H</td>
+		</tr>
+		<tr>
+			<td>I</td>
+		</tr>
+		<tr>
+			<td colspan="4">J</td>
+		</tr>
+	</table>
+
+</body>
+
+</html>
